@@ -1,0 +1,354 @@
+
+.navbar
+{
+    position:fixed ;
+    width: 100%;
+    z-index: 99999;
+}
+.navbar .container-fluid .logo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .container-fluid .logo-container img {
+    border-radius: 50%;
+    position: relative;
+}
+
+.navbar .container-fluid .logo-container .circle {
+    position: absolute;
+    border: 3px orange solid;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    top: -3px; /* Adjust the position relative to the image */
+    left: -3px; /* Adjust the position relative to the image */
+}
+.navbar-collapse
+{
+    justify-content: end;
+}
+.nav-link
+{
+    color: white;
+    background: orange;
+    margin-inline: 5px;
+    border-radius: 4px;
+}
+.nav-link:hover
+{
+    color: white;
+}
+.nav-link:focus
+{
+    color: white;
+}
+.navbar-nav .nav-link.show
+{
+    color: #ffa500;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    background-color: var(--red);
+    color: #ffa500;
+    border: solid 1px #ffa500;
+  }
+.dropdown-item
+{
+    color: orange;
+}
+.dropdown-item:active 
+{
+    background-color: orange;
+}
+nav .navbar-toggler
+{
+    border: none;
+    outline: none;
+} 
+.navbar-toggler:focus
+{
+    box-shadow: none;
+} 
+header
+{
+    height: 100vh;
+    background-image: url(../imgs/bg-header.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header-caption
+{
+    text-align: center;
+}
+header h5
+{
+    color: #ff7300;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 3px black;
+}
+header p
+{
+    text-shadow: 3px 3px 3px black;
+    font-weight: 600;
+    color: white;
+}
+header p span
+{
+    color: #ff7300;
+}
+.btn-primary
+{
+    background-color: #ff7300;
+    border: #ff7300;
+}
+.btn-primary:hover
+{
+    background-color: #ff6200;
+    border: #ff6200;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active
+{
+    background-color: orange;
+    border-color: orange;
+}
+.about
+{
+    padding: 100px 0;
+}
+.pb
+{
+    padding-bottom: 70px !important;
+}
+.about h3
+{
+    font-weight: 900;
+    font-size: 40px;
+}
+.about h3 span
+{
+    color: #ff7300;
+    font-size: 40px;
+}
+.about-content span
+{
+    color: #999;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.about-content p
+{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.carousel-item img
+{
+    width: 100%;
+}
+.services
+{
+    background-color: #f7f7f7;
+    padding: 100px 50px;
+    padding-bottom: 70px !important;
+}
+.services-title
+{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.services-title h3
+{
+    font-weight: 900;
+    font-size: 40px;
+    display: inline-block;
+}
+.services-title h3 span
+{
+    color: #ff7300;
+}
+.services-cards
+{
+    padding: 50px 20px;
+    background: #fff;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.services-cards:hover .ico-circle
+{
+    background-color: black;
+    color: #ff7300;
+}
+.services-ico
+{
+    margin-bottom: 1rem;
+    color: #ff7300;
+}
+
+.ico-circle
+{
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+    padding: 15px 18px;
+}
+.services-content h6
+{
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.services-content p
+{
+    word-spacing: 2px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    color: #748182;
+
+}
+#instructors
+{
+    padding: 100px 0;
+    padding-bottom: 40px !important;
+}
+#instructors h3
+{
+    text-align: center;
+}
+.instructors-title
+{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.instructors-title h3
+{
+    font-weight: 900;
+    font-size: 40px;
+}
+.instructors-title h3 span
+{
+    color: #ff7300;
+}
+section#instructors .card:hover {
+    transform: scale(1.05);
+}
+section#instructors .card {
+    transition: transform 0.5s;
+}
+.socials i
+{
+    color: #ff7300;
+}
+/*! ----------- 4- STUDENTS SECTION ----------*/
+section#students
+{
+    background: #f7f7f7;
+    padding: 80px 20px;
+    padding-bottom: 70px !important;
+}
+section#students h3
+{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+section#students h3 span
+{
+    color: #ff7300;
+    font-size: 40px;
+}
+section#students img {
+    max-width: 400px;
+    min-width: 200px;
+  }
+  
+  /*! ----------- 5- COURSES SECTION ----------- */
+section#courses
+{
+    padding: 80px 20px;
+    padding-bottom: 70px !important;
+}
+section#courses h3
+{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+section#courses h3 span
+{
+    color: #ffa500;
+    font-size: 40px;
+}
+  section#courses .nav-link.active {
+    background-color: var(--red);
+    color: #ffa500;
+    border: solid 1px #ffa500;
+  }
+  section#courses .nav-link {
+    color: white;
+  }
+  
+  /*! ----------- 6- CONTACT SECTION ------------ */
+  section#contact
+  {
+    background-color: #f7f7f7;
+    padding: 80px 20px;
+    padding-bottom: 70px !important;
+  }
+  section#contact h3
+{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+section#contact h3 span
+{
+    color: #ffa500;
+    font-size: 40px;
+}
+section#contact .row .col-md-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#contact .row .col-md-4 i
+{
+    padding-right: 10px;
+    color: #ff7300;
+}
+  /*! --------------- 7- FOOTER ----------------- */
+  footer
+  {
+      text-align: center;
+      color: #ff7300;
+      padding: 25px 0;
+      margin-top: 20px;
+  }
+  .footer-content
+  {
+      margin-bottom: 0.3rem;
+  }
+  .footer-content p
+  {
+      margin-bottom: 0;
+      margin-top: 5px;
+  }
+  .footer-content span
+  {
+      font-weight: 700;
+  }
+  
+  footer i:hover {
+    color: var(--red);
+  }

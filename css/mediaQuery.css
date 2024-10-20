@@ -1,0 +1,47 @@
+@media only screen and (max-width: 990px) {
+    .navbar .container-fluid .logo-container .circle {
+        top: -3px;  /* Adjust for smaller screens */
+        left: -3px; /* Adjust for smaller screens */
+    }
+    .nav-link
+{
+    color: orange;
+    background: rgb(248 249 250);
+    margin-inline: 5px;
+    border-radius: 4px;
+}
+.nav-link:hover
+{
+    color: orange;
+}
+.nav-link:focus
+{
+    color: orange;
+}
+.navbar-nav .nav-link.show
+{
+    color: orange;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+
+    border:none;
+}
+section#courses .nav-link {
+    color: orange;
+}
+}
+@media only screen and (max-width: 767px) {
+
+    header h5
+    {
+        font-size: 1.6rem;
+    }
+     header .btn
+     {
+        font-size: small;
+     }
+     header p
+    {
+        font-size: 11px;
+    }
+}
